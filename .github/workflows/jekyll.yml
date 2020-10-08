@@ -31,3 +31,4 @@ jobs:
         rm: true
         source: "${{ github.workspace }}/_site"
         target: "${{ secrets.REMOTE_DIR }}"
+        strip_components: 3
