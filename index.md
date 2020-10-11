@@ -1,9 +1,9 @@
 ---
 title: Stepaniuk
-subtitle: Some subtitle
+subtitle: St
 layout: page
-callouts: home_callouts
 show_sidebar: false
+hide_hero: true
 ---
 
 # Stepaniuk

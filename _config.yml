@@ -59,5 +59,3 @@ collections:
 
 markdown: kramdown
 highlighter: rouge
-
-footer_menu: example_footer_menu
