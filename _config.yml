@@ -4,28 +4,20 @@ tagline: Build better
 email: hello@stepaniuk.nl
 description: >
   Software development consultancy, training, technical coaching.
-baseurl: "/"
+baseurl: ""
 url: "https://stepaniuk.nl"
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
-#hide_share_buttons: true
+hide_share_buttons: true
 
 paginate: 5
 paginate_path: "/blog/page:num"
 
-# Disqus Comments
 disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  shortname: istepaniuk
-
+  shortname:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
   - jekyll-seo-tag
   - kramdown-parser-gfm
 
@@ -44,8 +36,6 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
-
-#google_analytics: UA-code-here
 
 defaults:
   -
@@ -68,10 +58,3 @@ markdown: kramdown
 highlighter: rouge
 
 footer_menu: example_footer_menu
-
-collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
