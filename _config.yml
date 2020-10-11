@@ -54,6 +54,9 @@ defaults:
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
 
+collections:
+  products:
+
 markdown: kramdown
 highlighter: rouge
 
