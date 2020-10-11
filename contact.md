@@ -6,4 +6,4 @@ show_sidebar: false
 hide_hero: true
 ---
 
-Write to [hello@stepaniuk.nl](mailto:hello@stepaniuk.nl)
+## Get in touch: [hello@stepaniuk.nl](mailto:hello@stepaniuk.nl)
