@@ -59,3 +59,5 @@ collections:
 
 markdown: kramdown
 highlighter: rouge
+
+footer_data: footer_data

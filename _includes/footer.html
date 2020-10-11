@@ -1,20 +1,20 @@
 <footer class="footer">
     <div class="container">
-        
-        {% if site.footer_menu %}
+
+        {% if site.footer_data %}
         <div class="columns is-multiline">
-            {% for item in site.data[site.footer_menu] %}
-            <div class="column has-text-centered">
-                <div>
-                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
-                </div>
-            </div>
+          <ul class="column ">
+            {% for item in site.data[site.footer_data] %}
+                <li>{% if item.label %}{{ item.label }}: {% endif %}{{ item.value }}</li>
             {% endfor %}
+          </ul>
         </div>
         {% endif %}
 
-        <div class="content is-small has-text-centered">
-            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        <div class="content is-small is-pulled-right">
+            <p>Built with <a href="https://jekyllrb.com/">Jekyll</a>
+              and <a rel="noreferrer" href="https://www.csrhymes.com">BCT</a>
+            </p>
         </div>
     </div>
 </footer>
