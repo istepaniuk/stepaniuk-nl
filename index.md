@@ -14,7 +14,7 @@ I can help your team move forward by helping you understand what's wrong and pro
 
 ### Training
 I can also facilitate short workshops to get your team up to speed:
- - Test Driven Development
- - Domain Driven Design
- - CQRS & ES
+ - Test-driven development
+ - Domain-driven design
+ - CQRS & Event sourcing
  - [Get in touch](/contact).
