@@ -17,4 +17,4 @@ I can also facilitate short workshops to get your team up to speed:
  - Test-driven development
  - Domain-driven design
  - CQRS & Event sourcing
- - [Get in touch](/contact).
+ - [Get in touch](mailto:hello@stepaniuk.nl).
