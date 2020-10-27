@@ -3,8 +3,6 @@ name: Jekyll site CI
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
@@ -17,7 +15,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:4.1.0 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
 
     # Copying files and artifacts via SSH
