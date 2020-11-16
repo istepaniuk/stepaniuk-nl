@@ -1,4 +1,2 @@
-# stepaniuk-nl
-
-Stepaniuk.nl [website](https://stepaniuk.nl)
+# [stepaniuk.nl Website](https://stepaniuk.nl)
 
