@@ -13,8 +13,9 @@ Hi there, my name is Iván. I am a software crafter and an independent consultan
 I can help your team move forward by helping you understand what's wrong and providing practical advice on how to get back on track.
 
 ### Training
-I can also facilitate short workshops to get your team up to speed:
+I can facilitate short workshops to get your team up to speed:
  - Test-driven development
  - Domain-driven design
  - CQRS & Event sourcing
- - [Get in touch](mailto:hello@stepaniuk.nl).
+ 
+[Get in touch](mailto:hello@stepaniuk.nl).
